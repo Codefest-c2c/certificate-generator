@@ -12,7 +12,7 @@ admin.initializeApp();
 
 // // SandGrid
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey("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");
+sgMail.setApiKey("Sendgrid Email SMTP");
 
 
 const sendSendGridMail = async (snap) => {
